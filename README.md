@@ -1,5 +1,4 @@
 # 扩展的LDA模型
-![Uploading image.png…]()
 
 ## 模型类别
 无监督学习
