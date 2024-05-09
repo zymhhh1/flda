@@ -1,11 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-"""
-@author: Zhishuai Lee
-@time: 2019/10/23 10:56
-@file: wordidmap.py
-@desc:
-"""
+
 import pandas as pd
 from collections import OrderedDict
 import codecs
