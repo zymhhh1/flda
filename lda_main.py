@@ -13,11 +13,6 @@ from collections import OrderedDict
 import configparser
 from matplotlib.ticker import ScalarFormatter
 
-plt.style.use(['ieee'])
-plt.rcParams['font.family'] = 'Century'  # 设置字体样式
-plt.rcParams.update({'font.size': 12})  # 改变所有字体大小，改变其他性质类似
-# plt.style.use('ggplot')
-random.seed(100)
 
 conf = configparser.ConfigParser()
 conf.read("./setting.conf")
@@ -457,8 +452,6 @@ if __name__ == '__main__':
     pre = []
     run()
     print(pre)
-    #import draw_results_7
 
-    #draw_results_7.main()
 
 
