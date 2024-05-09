@@ -1,11 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-"""
-@author: Zhishuai Lee
-@time: 2019/11/4 11:08
-@file: draw.py
-@desc:
-"""
+
 import matplotlib.pyplot as plt
 import numpy as np
 import logging.config
@@ -18,12 +13,7 @@ import matplotlib.ticker as mtick
 import matplotlib.transforms as mtrans
 
 path = os.getcwd()
-# plt.style.use(['ieee'])
-plt.rcParams['font.size'] = 25  # 设置字体大小
-plt.rcParams['font.family'] = 'Century'  # 设置字体样式
-# from matplotlib import rc
-# rc('font', **{'family': 'serif', 'serif': ['Century']})
-# rc('text', usetex=True)
+
 conf = configparser.ConfigParser()
 conf.read("setting.conf")
 
